@@ -1,0 +1,23 @@
+body {
+  /*background-image: url('./backgorun.jpg'); !* Replace with the actual path to your image *!*/
+  background-size: auto;
+  background-position: center; /* Center the background image */
+  color: white; /* Adjust text color for contrast */
+}
+.flip-clock-label {
+  font-weight: bold;
+  font-size: 1.2em;
+  /*color: white !important; */
+}
+
+
+
+.clock {
+  width: 650px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
