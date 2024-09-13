@@ -2,12 +2,45 @@ body {
   /*background-image: url('./backgorun.jpg'); !* Replace with the actual path to your image *!*/
   background-size: auto;
   background-position: center; /* Center the background image */
-  color: white; /* Adjust text color for contrast */
+  /*color: white; !* Adjust text color for contrast *!*/
+  background-color: black; /* Set the background to black */
+  color: white; /* Set the default text color to white */
 }
+
+.logo {
+  display: flex;
+  justify-content: center; /* Center the logo horizontally */
+  margin-bottom: 20px; /* Space between logo and countdown timer */
+}
+
+.logo img {
+  max-width: 200px; /* Adjust the size of the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
 .flip-clock-label {
   font-weight: bold;
   font-size: 1.2em;
   /*color: white !important; */
+}
+.flip-clock-wrapper ul {
+  background: #ffffff; /* Set the background of the flip clock to black */
+  color: white; /* Set the text color to white */
+  border-radius: 6px;
+}
+
+.flip-clock-wrapper ul li a div div.inn {
+  color: #000000; /* Set the digits to white */
+  background-color: #ffffff; /* Set the background behind the digits to black */
+  text-shadow: none; /* Remove text shadow for clearer look */
+}
+
+.flip-clock-dot {
+  background: white; /* Set dots between numbers to white */
+}
+
+.flip-clock-divider .flip-clock-label {
+  color: white !important; /* Ensure that labels like Days, Hours, Minutes, Seconds are white */
 }
 
 
