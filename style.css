@@ -5,7 +5,7 @@ body {
   /*color: white; !* Adjust text color for contrast *!*/
   background-color: black; /* Set the background to black */
   color: white; /* Set the default text color to white */
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 .logo {
