@@ -54,7 +54,7 @@ window.addEventListener('load', (event) => {
 
   let currentDate = new Date();
 
-  let targetDate = moment.tz("2024-09-15 09:30", "Asia/Colombo");
+  let targetDate = moment.tz("2024-09-15  09:30", "Asia/Colombo");
 
   // Calculate the difference in seconds between the future and current date
   let diff = targetDate / 1000 - currentDate.getTime() / 1000;
