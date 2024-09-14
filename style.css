@@ -3,19 +3,19 @@ body {
   background-size: auto;
   background-position: center; /* Center the background image */
   /*color: white; !* Adjust text color for contrast *!*/
-  background-color: black; /* Set the background to black */
-  color: white; /* Set the default text color to white */
+  background-color: black;
+  color: white;
 }
 
 .logo {
   display: flex;
-  justify-content: center; /* Center the logo horizontally */
-  margin-bottom: 20px; /* Space between logo and countdown timer */
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .logo img {
-  max-width: 200px; /* Adjust the size of the logo */
-  height: auto; /* Maintain aspect ratio */
+  max-width: 200px;
+  height: auto;
 }
 
 .flip-clock-label {
@@ -24,8 +24,8 @@ body {
   /*color: white !important; */
 }
 .flip-clock-wrapper ul {
-  background: #ffffff; /* Set the background of the flip clock to black */
-  color: white; /* Set the text color to white */
+  background: #ffffff;
+  color: white;
   border-radius: 6px;
 }
 
@@ -70,11 +70,12 @@ body {
   bottom: 0;  /* Anchors the waves to the bottom of the page */
   width: 100%;
   height: 15vh;  /* You can adjust the height as needed */
+  overflow-x: hidden;
 }
 
 .waves {
   position: absolute;
-  bottom: 0;  /* Anchors the SVG waves at the bottom of the container */
+  bottom: 0;
   width: 100%;
   height: 100%;
 }
